@@ -1,0 +1,49 @@
+/* Background for the entire form */
+form {
+  background-color: #f8f9fa;
+  padding: 30px;
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Input field styling */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"],
+select {
+  border: 1px solid #ced4da;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Button styling */
+button {
+  box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Full width for buttons */
+.full-width-button {
+  width: 100%;
+}
+
+/* Divider line */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+/* Custom height for section */
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
